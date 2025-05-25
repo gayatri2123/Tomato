@@ -6,7 +6,7 @@ import Stripe from "stripe"
 //placing user order for frontend
 const placeOrder = async (req, res) => {
     
-    const frontend_url = "https://food-del-backend-9spw.onrender.com";
+    const frontend_url = "https://tomato-3byu.onrender.com";
 
    try {
        const newOrder = new orderModel({
