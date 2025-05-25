@@ -12,10 +12,8 @@ const port = process.env.Port || 4000;
 
 //middleware
 app.use(express.json())
-app.use(cors({
-  origin: "https://food-del-frontend-kqpk.onrender.com",
-  credentials: true
-}));
+app.use(cors());
+
 
 
 //db connecrion
